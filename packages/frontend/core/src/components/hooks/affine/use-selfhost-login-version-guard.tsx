@@ -5,7 +5,7 @@ import semver from 'semver';
 
 const rules = [
   {
-    min: '0.23.0',
+    min: '0.22.0',
     tip: (receivedVersion: string, requiredVersion: string) => (
       <div>
         <p
